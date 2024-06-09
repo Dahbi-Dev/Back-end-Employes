@@ -1,0 +1,76 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables files
+.env
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environment directory
+venv/
+.env/
+
+# Ignore editor specific files
+.vscode/
+.idea/
+
+# Ignore compiled files
+*.o
+*.so
+*.exe
+*.out
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Ignore files created by popular editors and IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Custom rules for your specific project
+# Add any other patterns specific to your project below

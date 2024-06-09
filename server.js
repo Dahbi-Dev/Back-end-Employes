@@ -55,7 +55,7 @@ app.get("/employes", (req, res) => {
                 "nomDep": "Développement"
             }
         },
-        {
+             {
             "_id": "e6",
             "nomEmp": "Dahbi",
             "prenomEmp": "Houssam",
@@ -64,7 +64,7 @@ app.get("/employes", (req, res) => {
                 "codeDep": "6",
                 "nomDep": "Développement"
             }
-        },
+        }
     ]
     res.json(employes)
 })

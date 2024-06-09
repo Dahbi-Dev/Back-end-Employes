@@ -63,7 +63,7 @@ app.get("/employes", (req, res) => {
                 "codeDep": "6",
                 "nomDep": "Développement"
             }
-        }
+        },
     ]
     res.json(employes)
 })

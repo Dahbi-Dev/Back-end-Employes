@@ -54,7 +54,17 @@ app.get("/employes", (req, res) => {
                 "codeDep": "5",
                 "nomDep": "Développement"
             }
-        }
+        },
+        {
+            "_id": "e6",
+            "nomEmp": "Dahbi",
+            "prenomEmp": "Houssam",
+            "poste": "Développeur Full Stack",
+            "departement": {
+                "codeDep": "6",
+                "nomDep": "Développement"
+            }
+        },
     ]
     res.json(employes)
 })
